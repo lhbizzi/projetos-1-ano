@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercício 24</title>
+        <meta charset="Utf-8"/> 
+        <link rel="stylesheet" href="modelo.css"/>
+        <script src="ex24.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div>
+                Informe o preço <input type="number" id="preco"/> 
+            </div>
+            <div>
+                <select id="categoria">
+                    <option>Selecione uma categoria</option>
+                    <option id="1"> Limpeza </option>
+                    <option id="2"> Alimentação </option>
+                    <option id="3"> Vestuário </option>
+                </select>
+            </div>
+            <div>
+                <select id="situacao">
+                    <option>Selecione uma situação</option>
+                    <option id="R"> Produtos que necessitam de Refrigeração </option>
+                    <option id="N"> Produtos que não necessitam de Refrigeração </option>
+                </select>
+            </div>
+            <div>
+                <button onclick="Calcular()">
+                    Calcular
+                </button>
+            </div>
+            <div>
+                <p id="Resp">
+                    
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

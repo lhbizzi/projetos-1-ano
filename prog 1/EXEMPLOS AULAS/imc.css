@@ -1,0 +1,20 @@
+body {
+    width: 400px; /* largura */
+    margin: auto; /* espaçamento externo */
+    margin-top: 50px; /* espaçamento externo superior */
+    background-color: cyan; /* cor de fundo */
+}
+h3 {
+    color: red; /* cor do texto para vermelho */
+}
+
+div {
+    padding-bottom: 30px; /* espaçamento interno abaixo*/
+}
+
+#container{
+    background-color: blue; /* cor de fundo */
+    color: white; /* cor do texto*/
+    padding: 10px; /* espaçamento interno */
+    border-radius: 20px; /* borda com cantos arredondados */
+}

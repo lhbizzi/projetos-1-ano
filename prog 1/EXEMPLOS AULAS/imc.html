@@ -1,0 +1,30 @@
+<!DOCTYPE html> <!-- identifica documento html 5 -->
+<html> <!-- elemento raiz -->
+    <head> <!-- cabeçalho -->
+        <title> Calculadora IMC </title>
+        <meta charset="utf-8"></meta> <!-- PT/BR -->
+        <link rel="stylesheet" href="imc.css"></link>
+        <script src="imc.js"> </script>
+    </head>
+    <body> <!-- corpo -->
+        <div id="container"> 
+            <h3> Calculadora do IMC </h3>
+            <div>
+                Informe peso  <input type="number" id="peso"> </input> 
+            </div>
+            <div>
+                Informe altura <input type="number" id="altura"></input>
+            </div>
+            <div>
+                <button onClick="calcular()"> 
+                    Calcular 
+                </button>
+            <div>
+                <p id="resp">
+                    Resultado
+                </p>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

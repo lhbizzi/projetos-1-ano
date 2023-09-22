@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Exercício 1 </title>
+        <meta charset="Utf-8"/> <!-- Define linguagem como PT-BR -->
+        <script src="ex1.js"></script> <!-- Conecta o HTML ao Java -->
+    </head>
+    <body>
+        <div id="container"> <!-- Criação de uma DIV principal -->
+            <div>
+                Informe quantos anos de experiência do profissional <input type="number" id="anos"/> <!-- Caixa para inserir informações -->
+            </div>
+            <div>
+                <select id="opcao"> <!-- Cria caixa de seleção para o usuário definir a linguagem de programação -->
+                    <option> Escolha a linguagem de programação </option>
+                    <option id="1"> Java Script </option>
+                    <option id="2"> React </option>
+                    <option id="3"> Node </option>
+                </select>
+            </div>
+            <div>
+                <select id="opcao2"> <!-- Cria caixa de seleção para o usuário definir a indicação que o profissional recebeu -->
+                    <option> Escolha a indicação </option>
+                    <option id="4"> Colaborador Interno </option>
+                    <option id="5"> Instituição onde Estuda </option>
+                    <option id="6"> Sem Indicação </option>
+                </select>
+            </div>
+            <div>
+                <button onclick="Calcular()"> <!-- Cria o botão para cálculo -->
+                    Calcular
+                </button>
+            </div>
+            <div>
+                <p id="Resp"> <!-- Cria parágrafo para inserir a resposta da função -->
+
+                </p>
+            </div>
+        </div>  
+    </body>
+</html>
